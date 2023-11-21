@@ -1,5 +1,3 @@
-require "prometheus/client"
-
 module GovukSliCollector
   class PublishingLatencySli
     class RecordMetrics
