@@ -6,6 +6,7 @@ gem "prometheus-client"
 gem "rest-client"
 
 group :test do
+  gem "climate_control"
   gem "rspec"
   gem "webmock"
 end

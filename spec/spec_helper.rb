@@ -1,6 +1,7 @@
 require "bundler"
 Bundler.setup(:default, :test)
 
+require "climate_control"
 require "webmock/rspec"
 
 WebMock.disable_net_connect!
