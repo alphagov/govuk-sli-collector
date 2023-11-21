@@ -2,6 +2,7 @@
 
 source "https://rubygems.org"
 
+gem "prometheus-client"
 gem "rest-client"
 
 group :test do

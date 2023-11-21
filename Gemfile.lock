@@ -43,6 +43,7 @@ GEM
     parser (3.2.2.4)
       ast (~> 2.4.1)
       racc
+    prometheus-client (4.2.2)
     public_suffix (5.0.3)
     racc (1.7.1)
     rack (3.0.8)
@@ -117,6 +118,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  prometheus-client
   rest-client
   rspec
   rubocop-govuk
