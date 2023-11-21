@@ -11,14 +11,19 @@ GEM
       minitest (>= 5.1)
       mutex_m
       tzinfo (~> 2.0)
+    addressable (2.8.5)
+      public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
     base64 (0.1.1)
     bigdecimal (3.1.4)
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
+    crack (0.4.5)
+      rexml
     diff-lcs (1.5.0)
     drb (2.1.1)
       ruby2_keywords
+    hashdiff (1.0.1)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     json (2.6.3)
@@ -29,6 +34,7 @@ GEM
     parser (3.2.2.4)
       ast (~> 2.4.1)
       racc
+    public_suffix (5.0.3)
     racc (1.7.1)
     rack (3.0.8)
     rainbow (3.1.1)
@@ -85,6 +91,10 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.5.0)
+    webmock (3.19.1)
+      addressable (>= 2.8.0)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
 
 PLATFORMS
   x86_64-linux
@@ -92,6 +102,7 @@ PLATFORMS
 DEPENDENCIES
   rspec
   rubocop-govuk
+  webmock
 
 BUNDLED WITH
    2.4.10
