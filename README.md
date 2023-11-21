@@ -18,6 +18,8 @@ Collects data about GOV.UK services and produces SLI metrics for use in SLO dash
 
 This is a Ruby script.
 
+In production, it's run from a scheduled task via its `./collect` executable.
+
 ### Running the linter
 
 `bundle exec rubocop`

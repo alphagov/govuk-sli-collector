@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require "bundler"
+Bundler.setup(:default)
+
+$LOAD_PATH << "./lib"
+
+require "govuk_sli_collector"
+
+GovukSliCollector.call
