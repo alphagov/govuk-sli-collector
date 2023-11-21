@@ -1,0 +1,9 @@
+.dockerignore
+.git
+.github
+.rspec
+.rubocop.yml
+Dockerfile
+LICENCE.txt
+README.md
+spec
