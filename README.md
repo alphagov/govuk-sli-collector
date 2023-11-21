@@ -22,6 +22,10 @@ This is a Ruby script.
 
 `bundle exec rubocop`
 
+### Running the test suite
+
+`bundle exec rspec`
+
 ## Licence
 
 [MIT License](LICENCE.txt)
