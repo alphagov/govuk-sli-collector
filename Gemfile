@@ -8,6 +8,7 @@ gem "rest-client"
 group :test do
   gem "climate_control"
   gem "rspec"
+  gem "timecop"
   gem "webmock"
 end
 

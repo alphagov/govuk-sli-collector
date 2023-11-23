@@ -104,6 +104,7 @@ GEM
       rubocop-factory_bot (~> 2.22)
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
+    timecop (0.9.8)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unf (0.1.4)
@@ -124,6 +125,7 @@ DEPENDENCIES
   rest-client
   rspec
   rubocop-govuk
+  timecop
   webmock
 
 BUNDLED WITH
