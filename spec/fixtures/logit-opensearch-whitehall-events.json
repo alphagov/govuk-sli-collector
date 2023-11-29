@@ -1,0 +1,155 @@
+{
+   "_shards" : {
+      "failed" : 0,
+      "skipped" : 0,
+      "successful" : 25,
+      "total" : 25
+   },
+   "hits" : {
+      "hits" : [
+         {
+            "_id" : "Kei7quoohahxaiS2yo4d",
+            "_index" : "filebeat-2023.11.16",
+            "_score" : 0,
+            "_type" : "_doc",
+            "fields" : {
+               "@timestamp" : [
+                  "2023-11-16T12:15:39.418Z"
+               ],
+               "duration" : [
+                  12.86
+               ],
+               "govuk_request_id" : [
+                  "11-1111111111.222-0.0.0.0-1111"
+               ]
+            }
+         },
+         {
+            "_id" : "foosh1MooPh8Vegheiwi",
+            "_index" : "filebeat-2023.11.16",
+            "_score" : 0,
+            "_type" : "_doc",
+            "fields" : {
+               "@timestamp" : [
+                  "2023-11-16T12:15:46.861Z"
+               ],
+               "duration" : [
+                  312.18
+               ],
+               "govuk_request_id" : [
+                  "12-2222222222.333-0.0.0.0-2222"
+               ]
+            }
+         },
+         {
+            "_id" : "ooH3xacheez2poo7aeWe",
+            "_index" : "filebeat-2023.11.16",
+            "_score" : 0,
+            "_type" : "_doc",
+            "fields" : {
+               "@timestamp" : [
+                  "2023-11-16T12:17:47.826Z"
+               ],
+               "duration" : [
+                  1532.94
+               ],
+               "govuk_request_id" : [
+                  "13-3333333333.444-0.0.0.0-3333"
+               ]
+            }
+         },
+         {
+            "_id" : "ohgh7quohzohM8eing0y",
+            "_index" : "filebeat-2023.11.16",
+            "_score" : 0,
+            "_type" : "_doc",
+            "fields" : {
+               "@timestamp" : [
+                  "2023-11-16T08:41:55.154Z"
+               ],
+               "duration" : [
+                  48.49
+               ],
+               "govuk_request_id" : [
+                  "14-4444444444.555-0.0.0.0-4444"
+               ]
+            }
+         },
+         {
+            "_id" : "Thohzah4eteeGu1hahFu",
+            "_index" : "filebeat-2023.11.16",
+            "_score" : 0,
+            "_type" : "_doc",
+            "fields" : {
+               "@timestamp" : [
+                  "2023-11-16T08:49:39.403Z"
+               ],
+               "duration" : [
+                  45.74
+               ],
+               "govuk_request_id" : [
+                  "15-5555555555.666-0.0.0.0-5555"
+               ]
+            }
+         },
+         {
+            "_id" : "Aiz9ieQuae3siyai8vie",
+            "_index" : "filebeat-2023.11.16",
+            "_score" : 0,
+            "_type" : "_doc",
+            "fields" : {
+               "@timestamp" : [
+                  "2023-11-16T09:43:54.989Z"
+               ],
+               "duration" : [
+                  347.16
+               ],
+               "govuk_request_id" : [
+                  "16-6666666666.777-0.0.0.0-6666"
+               ]
+            }
+         },
+         {
+            "_id" : "hahYei3aewoot7faevai",
+            "_index" : "filebeat-2023.11.16",
+            "_score" : 0,
+            "_type" : "_doc",
+            "fields" : {
+               "@timestamp" : [
+                  "2023-11-16T13:27:11.158Z"
+               ],
+               "duration" : [
+                  654.13
+               ],
+               "govuk_request_id" : [
+                  "17-7777777777.888-0.0.0.0-7777"
+               ]
+            }
+         },
+         {
+            "_id" : "chieBieth5phae0Ohmae",
+            "_index" : "filebeat-2023.11.16",
+            "_score" : 0,
+            "_type" : "_doc",
+            "fields" : {
+               "@timestamp" : [
+                  "2023-11-16T17:13:54.025Z"
+               ],
+               "duration" : [
+                  335.23
+               ],
+               "govuk_request_id" : [
+                  "18-8888888888.999-0.0.0.0-8888"
+               ]
+            }
+         }
+      ],
+      "max_score" : 0,
+      "total" : {
+         "relation" : "eq",
+         "value" : 8
+      }
+   },
+   "timed_out" : false,
+   "took" : 141
+}
