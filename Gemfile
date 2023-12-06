@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 gem "prometheus-client"
 gem "rest-client"
+gem "sentry-ruby"
 
 group :test do
   gem "climate_control"
