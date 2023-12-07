@@ -5,6 +5,7 @@ Bundler.setup(:default)
 
 $LOAD_PATH << "./lib"
 
+require "error"
 require "govuk_sli_collector"
 
-GovukSliCollector.call
+Error.report { GovukSliCollector.call }
