@@ -41,7 +41,7 @@ module GovukSliCollector
         ]
 
         expect(logit_search).to have_received(:call).with(
-          app_name: "content-store-mongo-main",
+          app_name: "content-store",
           govuk_request_ids:,
           route: "content_items#update",
           from_time:,
