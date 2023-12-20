@@ -1,6 +1,6 @@
 name: Deploy
 
-run-name: Deploy ${{ inputs.gitRef || github.event.release.tag_name  }} to ${{ inputs.environment || 'integration' }}
+run-name: Deploy ${{ inputs.gitRef || github.event.release.tag_name  }} to ${{ inputs.environment || 'production' }}
 
 on:
   workflow_dispatch:
@@ -14,8 +14,8 @@ on:
         required: true
         type: choice
         options:
-        - integration
-        default: 'integration'
+        - production
+        default: 'production'
   release:
     types: [released]
 
@@ -30,12 +30,12 @@ jobs:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_GOVUK_ECR_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_GOVUK_ECR_SECRET_ACCESS_KEY }}
   trigger-deploy:
-    name: Trigger deploy to ${{ inputs.environment || 'integration' }}
+    name: Trigger deploy to ${{ inputs.environment || 'production' }}
     needs: build-and-publish-image
     uses: alphagov/govuk-infrastructure/.github/workflows/deploy.yml@main
     with:
       imageTag: ${{ needs.build-and-publish-image.outputs.imageTag }}
-      environment: ${{ inputs.environment || 'integration' }}
+      environment: ${{ inputs.environment || 'production' }}
     secrets:
       WEBHOOK_TOKEN: ${{ secrets.GOVUK_ARGO_EVENTS_WEBHOOK_TOKEN }}
       WEBHOOK_URL: ${{ secrets.GOVUK_ARGO_EVENTS_WEBHOOK_URL }}
