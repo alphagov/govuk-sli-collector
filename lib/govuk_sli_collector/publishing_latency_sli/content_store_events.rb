@@ -11,7 +11,7 @@ module GovukSliCollector
         govuk_request_ids = matching.map(&:govuk_request_id)
 
         log_event_hashes = logit_search.call(
-          app_name: "content-store-mongo-main",
+          app_name: "content-store",
           govuk_request_ids:,
           route: "content_items#update",
           from_time:,
