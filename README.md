@@ -28,6 +28,10 @@ In production, it's run from a scheduled task via its `./collect` executable.
 
 `bundle exec rspec`
 
+### Docs
+
+[Deployments](docs/deployments.md)
+
 ## Licence
 
 [MIT License](LICENCE.txt)
