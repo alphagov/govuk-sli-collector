@@ -28,9 +28,11 @@ In production, it's run from a scheduled task via its `./collect` executable.
 
 `bundle exec rspec`
 
-### Docs
+### Deployments
 
-[Deployments](docs/deployments.md)
+**This project requires manual deployment.**
+
+[More detailed information about deployments...](docs/deployments.md)
 
 ## Licence
 

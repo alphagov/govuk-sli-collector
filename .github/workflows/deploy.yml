@@ -16,8 +16,6 @@ on:
         options:
         - production
         default: 'production'
-  release:
-    types: [released]
 
 jobs:
   build-and-publish-image:
