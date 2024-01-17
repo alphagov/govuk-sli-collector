@@ -23,7 +23,7 @@ module GovukSliCollector
             query: {
               bool: {
                 filter: [
-                  { term: { "kubernetes.deployment.name": app_name } },
+                  { term: { "kubernetes.labels.app_kubernetes_io/name": app_name } },
                   { term: { "kubernetes.container.name": "app" } },
                   (
                     if route.is_a?(Array)
