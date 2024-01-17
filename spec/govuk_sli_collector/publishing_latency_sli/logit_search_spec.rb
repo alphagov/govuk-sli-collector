@@ -46,7 +46,7 @@ module GovukSliCollector
         expect(
           logs_request.with do |request|
             expect(filters(request)).to include(
-              { "term" => { "kubernetes.deployment.name" => "thing-publisher" } },
+              { "term" => { "kubernetes.labels.app_kubernetes_io/name" => "thing-publisher" } },
             )
           end,
         ).to have_been_requested
