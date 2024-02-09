@@ -1,4 +1,4 @@
-ARG ruby_version=3.2
+ARG ruby_version=3.3
 FROM ghcr.io/alphagov/govuk-ruby-builder:$ruby_version
 
 COPY Gemfile* .ruby-version ./
