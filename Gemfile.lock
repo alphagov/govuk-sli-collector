@@ -15,7 +15,7 @@ GEM
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
     base64 (0.2.0)
-    bigdecimal (3.1.6)
+    bigdecimal (3.1.7)
     climate_control (1.2.0)
     concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
@@ -106,7 +106,7 @@ GEM
       rubocop-factory_bot (~> 2.22)
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
-    sentry-ruby (5.17.0)
+    sentry-ruby (5.17.1)
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.0.2)
     timecop (0.9.8)
