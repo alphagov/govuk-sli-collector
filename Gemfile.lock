@@ -25,7 +25,7 @@ GEM
     diff-lcs (1.5.1)
     domain_name (0.6.20240107)
     drb (2.2.1)
-    hashdiff (1.1.0)
+    hashdiff (1.1.1)
     http-accept (1.7.0)
     http-cookie (1.0.6)
       domain_name (~> 0.5)
@@ -45,7 +45,7 @@ GEM
       racc
     prometheus-client (4.2.3)
       base64
-    public_suffix (6.0.0)
+    public_suffix (6.0.1)
     racc (1.8.0)
     rack (3.1.7)
     rainbow (3.1.1)
@@ -55,8 +55,7 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
-    rexml (3.3.6)
-      strscan
+    rexml (3.3.8)
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
       rspec-expectations (~> 3.13.0)
@@ -105,12 +104,11 @@ GEM
     sentry-ruby (5.20.0)
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.0.2)
-    strscan (3.1.0)
     timecop (0.9.10)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.5.0)
-    webmock (3.23.1)
+    webmock (3.24.0)
       addressable (>= 2.8.0)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
