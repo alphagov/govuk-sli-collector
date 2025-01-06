@@ -1,6 +1,8 @@
 module GovukSliCollector
   class PublishingLatencySli
     class RecordMetrics
+      BUCKETS = [1, 5, 15, 30, 60, 2 * 60, 5 * 60, 10 * 60].freeze
+
       def initialize(prometheus_registry:)
         @prometheus_registry = prometheus_registry
       end
@@ -11,10 +13,12 @@ module GovukSliCollector
         first_content = prometheus_registry.histogram(
           :publishing_latency_first_content_s,
           docstring: "Publishing latency for a single content item, in seconds",
+          buckets: BUCKETS,
         )
         all_content = prometheus_registry.histogram(
           :publishing_latency_all_content_s,
           docstring: "Publishing latency for all affected content items, in seconds",
+          buckets: BUCKETS,
         )
 
         content_store_events_by_id = content_store_events.group_by(&:govuk_request_id)
