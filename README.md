@@ -1,3 +1,5 @@
+This repo was archived on 19 March 2025 as it was not being used.
+
 # GOV.UK SLI Collector
 
 Collects data about GOV.UK services and produces SLI metrics for use in SLO dashboards.
